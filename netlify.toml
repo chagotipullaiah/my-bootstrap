@@ -1,4 +1,4 @@
 [[redirects]]
-fromc= "/*"
+from = "/*"
 to = " /portfolio1.html"
 status = 200

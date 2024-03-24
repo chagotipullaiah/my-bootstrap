@@ -1,0 +1,194 @@
+body{
+      font-family:  "Roboto", sans-serif !important;
+      font-size: 15px !important;
+      line-height: 2em;
+      font-weight: 400;
+      color: #333;
+      background-color: white;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 10px;
+}
+ 
+h2 {
+      font-size: 20px !important;
+      line-height: 1.8em !important;
+      font-weight: 700 !important;
+}
+h3  {
+      font-size: 15px !important;
+      line-height: 1.8em !important;
+      font-weight: 500 !important;
+}
+
+
+h4 {
+      font-size: 10px !important;
+      line-height: 0.8em !important;
+      font-weight: 500 !important;
+}
+
+a:hover{
+      color: #e9f50f  !important;
+      text-decoration: none !important;
+}
+
+p {
+      margin-bottom: 20px !important;
+}
+
+ul {
+      margin: 0;
+      padding: 0;
+      list-style: none !important;
+}
+
+.btn {
+      padding: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 50%;
+      border: 0;
+      text-transform: uppercase;
+}
+
+.btn-primary{
+      background-color: #ffff;
+}
+
+
+
+.columns-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.left-col-block {
+      width: 50%;
+      text-align: center;
+      overflow: hidden;
+      position: fixed;
+      left: 0;
+}
+.right-col-block{
+      width: 50%;
+      position: absolute;
+      right: 0;
+}
+
+
+@media screen and (max-width : 600px) {
+      .left-col-block{
+            width: 100%;
+            position: relative;
+      }
+      .right-col-block{
+            width: 100%;
+            position: relative;
+      }
+}
+.header {
+      padding:0;
+      margin:0;
+      height: 100vh;
+      vertical-align: middle;
+      position:relative
+}
+.header .profile-image {
+      position: absolute;
+      left:0;
+      top:0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-image: url(prabhas.jpg);
+      background-size: cover;
+      background-position: top-center;
+
+}
+
+.header .profile-image:after{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background: linear-gradient(-25deg, #ee3c0b 0%,  #ee3c0b 20%, transparent 30%, transparent 100%);
+}
+
+.header .content{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+
+}
+
+.header .content h1 {
+      font-size: 40px;
+      list-style: 1;
+      color: white;
+      margin: 0;
+   
+}
+
+.header .content p {
+      font-size: 20px;
+      color: white;
+}
+
+.header .content .social-icon {
+      margin: 0;
+      padding: 0;
+      display: block;
+}
+
+.header .content .social-icon li {
+      display: inline-block;
+      margin: 0 2px;
+      color: red !important;
+}
+.header .content .social-icon li a {
+      display: block;
+      color: #fff;
+      border: 2px solid Grey;
+      border-radius: 100%;
+      font-size: 15px;
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+      text-align: center;
+}
+.header .content .social-icon li a:hover {
+      border-color: green;
+}
+
+.section-wrapper{
+      padding: 50px;
+}
+
+.section-title{
+      margin-bottom: 15px;
+}
+.section-title h2{
+      color: #555;
+}
+
+.grey-bg{
+      background-color: #fcf8f8 ;
+}
+.expertise-item{
+      margin-bottom: 2%;
+}
+.expertise-item h3 {
+      margin: 5px;
+      color: #333;
+      font-weight: 700;
+}
